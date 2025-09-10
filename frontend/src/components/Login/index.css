@@ -1,0 +1,64 @@
+/* src/components/Login/index.css */
+
+/* Container for the login form */
+.auth-container {
+    background: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    max-width: 400px;
+    width: 100%;
+    margin: 40px auto;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Title */
+.auth-container h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+    color: #333;
+}
+
+/* Error message */
+.error {
+    color: #d9534f;
+    font-size: 0.9rem;
+    margin-bottom: 15px;
+}
+
+/* Form layout */
+.auth-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Inputs */
+.auth-form input {
+    padding: 12px 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.auth-form input:focus {
+    border-color: #007bff;
+}
+
+/* Button */
+.auth-form button {
+    padding: 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.auth-form button:hover {
+    background-color: #0056b3;
+}
