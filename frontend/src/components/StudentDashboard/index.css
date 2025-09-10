@@ -1,0 +1,87 @@
+/* src/components/StudentDashboard/index.css */
+
+.student-dashboard {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.student-dashboard h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Profile display */
+.student-dashboard p {
+    font-size: 20px;
+    margin: 8px 0;
+    color: #444;
+}
+
+.student-dashboard b {
+    color: #000;
+}
+
+/* Edit form */
+.student-dashboard input {
+    display: block;
+    width: 600px;
+    width: 90%;
+    margin-bottom: 12px;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.student-dashboard input:focus {
+    border-color: #007bff;
+}
+
+/* Buttons */
+.student-dashboard button {
+    margin-right: 10px;
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background-color 0.2s;
+}
+
+/* Save button */
+.student-dashboard button:first-of-type {
+    background-color: #28a745;
+    color: white;
+}
+
+.student-dashboard button:first-of-type:hover {
+    background-color: #218838;
+}
+
+/* Cancel button */
+.student-dashboard button:last-of-type {
+    background-color: #6c757d;
+    color: white;
+}
+
+.student-dashboard button:last-of-type:hover {
+    background-color: #5a6268;
+}
+
+/* Edit profile button (when viewing) */
+.student-dashboard>div>button {
+    background-color: #007bff;
+    color: white;
+}
+
+.student-dashboard>div>button:hover {
+    background-color: #0056b3;
+}
