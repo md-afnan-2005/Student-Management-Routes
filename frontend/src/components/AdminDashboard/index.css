@@ -1,0 +1,112 @@
+/* src/components/AdminDashboard/index.css */
+
+.admin-dashboard {
+    max-width: 800px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading */
+.admin-dashboard h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* Form */
+.admin-dashboard form {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.admin-dashboard form input {
+    flex: 1 1 200px;
+    padding: 10px 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 0.95rem;
+}
+
+.admin-dashboard form button {
+    padding: 10px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.95rem;
+    transition: background-color 0.2s;
+}
+
+.admin-dashboard form button[type="submit"] {
+    background-color: #28a745;
+    color: white;
+}
+
+.admin-dashboard form button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+.admin-dashboard form button[type="button"] {
+    background-color: #6c757d;
+    color: white;
+}
+
+.admin-dashboard form button[type="button"]:hover {
+    background-color: #5a6268;
+}
+
+/* Student List */
+.admin-dashboard ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.admin-dashboard li {
+    background: #f9f9f9;
+    margin-bottom: 10px;
+    padding: 12px 15px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.admin-dashboard li span {
+    flex: 1;
+    color: #333;
+    font-size: 30px;
+}
+
+/* Action buttons */
+.admin-dashboard li button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.admin-dashboard li button:first-of-type {
+    background-color: #007bff;
+    color: white;
+}
+
+.admin-dashboard li button:first-of-type:hover {
+    background-color: #0056b3;
+}
+
+.admin-dashboard li button:last-of-type {
+    background-color: #dc3545;
+    color: white;
+}
+
+.admin-dashboard li button:last-of-type:hover {
+    background-color: #c82333;
+}
