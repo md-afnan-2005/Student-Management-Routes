@@ -11,8 +11,10 @@ app.use(cors({ origin: "http://localhost:3000" }));
 app.use(bodyParser.json());
 
 // Routes
+const port=process.env.PORT||5000;
 app.use("/auth", authRoutes);
 app.use("/students", studentRoutes);
 app.use("/profile", profileRoutes);
 
-app.listen(5000, () => console.log("Server running on port 5000"));
+app.listen(port, () => console.log("Server running on port", port));
+
